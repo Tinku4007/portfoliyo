@@ -12,19 +12,19 @@ const Home = () => {
     <Stack paddingTop="50px">
       <Container>
         <Box display="flex" flexWrap="wrap">
-          <Box width="50%" display='flex' flexDirection='column' gap='15px'>
-            <Typography variant='h1' fontSize="40px" fontWeight="600">
+          <Box sx={{ width: { xs: "100%", md: "50%" } }} display='flex' flexDirection='column' gap='15px'>
+            <Typography variant='h1'  sx={{ fontSize: { xs: "20px", lg: "40px" } }} fontWeight="600">
               Hi , I Am
             </Typography>
-            <Typography variant='h1' fontSize="40px" fontWeight="600">
+            <Typography variant='h1'  sx={{ fontSize: { xs: "20px", lg: "40px" } }} fontWeight="600">
               Tinku Saini
             </Typography>
-            <Typography variant='h6'>
+            <Typography variant='h6'  sx={{ fontSize: { xs: "14px", lg: "40px" } }}>
               Front-End Developer
             </Typography>
             <Box>
               <Box>
-                <Typography variant='h5' fontWeight={600}>
+                <Typography variant='h5'  fontWeight={600}>
                   Skills
                 </Typography>
               </Box>
@@ -46,8 +46,8 @@ const Home = () => {
               </Box>
             </Box>
           </Box>
-          <Box width="50%" position='relative' className="pic_design">
-            <img className='w-[410px] h-[410px] rounded-full' src={TinkuSaini} alt="" />
+          <Box  sx={{ width: { xs: "100%", md: "50%" } }}  position='relative' className="pic_design">
+            <img className='w-[410px] h-[410px] rounded-full user-img' src={TinkuSaini} alt="" />
           </Box>
         </Box>
 
