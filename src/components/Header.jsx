@@ -6,19 +6,19 @@ import { HashLink } from 'react-router-hash-link'
 const data =
     [
         {
-            name: "Home", to: ""
+            name: "Home", to: "/portfoliyo"
         },
         {
-            name: "Work", to: ""
+            name: "Work", to: "/portfoliyo"
         },
         {
-            name: "Experience", to: "#experince"
+            name: "Experience", to: "/portfoliyo/#experince"
         },
         {
-            name: "Service", to: ""
+            name: "Service", to: "/portfoliyo"
         },
         {
-            name: "Contact", to: "#contact"
+            name: "Contact", to: "/portfoliyo/#contact"
         },
     ]
 
