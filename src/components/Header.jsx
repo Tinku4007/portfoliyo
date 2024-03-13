@@ -2,6 +2,7 @@ import { Box, Container, Stack, Typography } from '@mui/material'
 import React from 'react'
 import { HashLink } from 'react-router-hash-link'
 import Drawer from '@mui/material/Drawer';
+import logo from '../assets/images/tink-removebg-preview.png';
 import { GiHamburgerMenu } from "react-icons/gi";
 const data =
     [
@@ -28,10 +29,10 @@ const Header = () => {
         <>
             <header className='p-2 '>
                 <Container>
-                    <Stack flexDirection='row' justifyContent='space-between' >
+                    <Stack flexDirection='row' alignItems="center" justifyContent='space-between' >
                         <Box>
                             <Typography variant='h5' fontSize='18px' fontWeight={600}>
-                                Tinku SaiNi
+                                <img className='h-16 object-cover' src={logo} alt="" />
                             </Typography>
                         </Box>
                         <Box className='header'>

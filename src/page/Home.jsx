@@ -28,10 +28,11 @@ const Home = () => {
                   Skills
                 </Typography>
               </Box>
-              <Box display='flex' alignItems='center' gap='20px' flexWrap='wrap' maxWidth='400px'>
+              <Box display='flex' alignItems='center' gap='20px' flexWrap='wrap' paddingTop="15px" maxWidth='400px'>
                 {skill?.map((item, i) => (
                   <Typography key={i} sx={{
                     boxShadow: '0 3px 3px 0 rgba(0,0,0,.15)',
+                    backgroundColor:"#fff",
                     width: '30%',
                     padding: '10px',
                     cursor: 'pointer',
