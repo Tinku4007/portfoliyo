@@ -11,7 +11,7 @@ const Home = () => {
   return (
     <Stack paddingTop="50px">
       <Container>
-        <Box display="flex" flexWrap="wrap">
+        <Box display="flex" flexWrap="wrap" justifyContent='space-between'>
           <Box sx={{ width: { xs: "100%", md: "50%" } }} display='flex' flexDirection='column' gap='15px'>
             <Typography variant='h1'  sx={{ fontSize: { xs: "20px", lg: "40px" } }} fontWeight="600">
               Hi , I Am
@@ -47,7 +47,7 @@ const Home = () => {
               </Box>
             </Box>
           </Box>
-          <Box  sx={{ width: { xs: "100%", md: "50%" } }}  position='relative' className="pic_design">
+          <Box  sx={{ width: { xs: "100%", md: "50%" } }} display="flex" justifyContent="flex-end"  position='relative' className="pic_design">
             <img className='w-[410px] h-[410px] rounded-full user-img' src={TinkuSaini} alt="" />
           </Box>
         </Box>
